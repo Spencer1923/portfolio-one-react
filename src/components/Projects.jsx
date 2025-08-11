@@ -5,6 +5,7 @@ import transcribe from '../assets/transcribe.jpg'
 import nasa from '../assets/nasa.jpg'
 import training from '../assets/training-app.jpg'
 import portfolio from '../assets/portfolio.jpg'
+import guess from '../assets/guess-it.jpg'
 
 
 import ImgOverlay from './ImgOverlay'
@@ -53,6 +54,14 @@ export default function Projects() {
             projectLink={'https://spencer-samra.netlify.app'}
             githubLink={'https://github.com/Spencer1923/portfolio-one-react.git'}>
             Mobile-first portfolio using React.js.
+          </ImgOverlay>
+
+           <ImgOverlay
+            imgSrc={guess}
+            title={"Guess it"}
+            projectLink={'https://drive.google.com/drive/folders/10BygrOvwYWA8K3GatF69hsKFHPEEpjjK?usp=share_link'}
+            githubLink={'https://github.com/Spencer1923/Guess-It'}>
+            Number Guessing Game using Java for Android.
           </ImgOverlay>
 
         </div>
