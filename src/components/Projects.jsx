@@ -6,6 +6,7 @@ import nasa from '../assets/nasa.jpg'
 import training from '../assets/training-app.jpg'
 import portfolio from '../assets/portfolio.jpg'
 import guess from '../assets/guess-it.jpg'
+import weather from '../assets/weather-app.jpg'
 
 
 import ImgOverlay from './ImgOverlay'
@@ -16,6 +17,31 @@ export default function Projects() {
       <div className='projects-wrapper'>
         <SectionIntroduction >PROJECTS</SectionIntroduction>
         <div className='projects-section-content'>
+
+          <ImgOverlay
+            imgSrc={weather}
+            title={"Weather Web App"}
+            projectLink={'https://datt3074weatherwebapp.netlify.app'}
+            githubLink={'https://github.com/Spencer1923/Immersive-Meteorological-Web-App'}>
+            Immersive Weather Web App using JavaScript and Max 9.
+          </ImgOverlay>
+
+          <ImgOverlay
+            imgSrc={portfolio}
+            title={"Portfolio"}
+            projectLink={'https://spencer-samra.netlify.app'}
+            githubLink={'https://github.com/Spencer1923/portfolio-one-react.git'}>
+            Mobile-first portfolio using React.js.
+          </ImgOverlay>
+
+          <ImgOverlay
+            imgSrc={guess}
+            title={"Guess it"}
+            projectLink={'https://drive.google.com/drive/folders/10BygrOvwYWA8K3GatF69hsKFHPEEpjjK?usp=share_link'}
+            githubLink={'https://github.com/Spencer1923/Guess-It'}>
+            Number Guessing Game using Java for Android.
+          </ImgOverlay>
+
           <ImgOverlay
             imgSrc={missionList}
             title={"Mission List"}
@@ -46,22 +72,6 @@ export default function Projects() {
             projectLink={'https://training-plan-app.netlify.app'}
             githubLink={'https://github.com/Spencer1923/training-app'}>
             Responsive workout generator with React.js & Tailwind CSS.
-          </ImgOverlay>
-
-          <ImgOverlay
-            imgSrc={portfolio}
-            title={"Portfolio"}
-            projectLink={'https://spencer-samra.netlify.app'}
-            githubLink={'https://github.com/Spencer1923/portfolio-one-react.git'}>
-            Mobile-first portfolio using React.js.
-          </ImgOverlay>
-
-           <ImgOverlay
-            imgSrc={guess}
-            title={"Guess it"}
-            projectLink={'https://drive.google.com/drive/folders/10BygrOvwYWA8K3GatF69hsKFHPEEpjjK?usp=share_link'}
-            githubLink={'https://github.com/Spencer1923/Guess-It'}>
-            Number Guessing Game using Java for Android.
           </ImgOverlay>
 
         </div>
