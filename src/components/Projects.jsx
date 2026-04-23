@@ -2,11 +2,11 @@ import React from 'react'
 import SectionIntroduction from './SectionIntroduction'
 import missionList from '../assets/mission-list-screenshot.jpg'
 import transcribe from '../assets/transcribe.jpg'
-import nasa from '../assets/nasa.jpg'
-import training from '../assets/training-app.jpg'
 import portfolio from '../assets/portfolio.jpg'
 import guess from '../assets/guess-it.jpg'
 import weather from '../assets/weather-app.jpg'
+import falseProphecy from '../assets/false-prophecy.jpg'
+
 
 
 import ImgOverlay from './ImgOverlay'
@@ -58,21 +58,14 @@ export default function Projects() {
             Speech-to-text transcription & translation, uses React JS & Tailwind CSS.
           </ImgOverlay>
 
-          <ImgOverlay
-            imgSrc={nasa}
-            title={"NASA App"}
-            projectLink={'https://nasa-app-reactjs.netlify.app'}
-            githubLink={'https://github.com/Spencer1923/react-NASA-data-app/tree/main'}>
-            NASA data web app built with React JS, Tailwind CSS and NASA API.
+<ImgOverlay
+            imgSrc={falseProphecy}
+            title={"False Prophecy"}
+            projectLink={'https://false-prophecy.netlify.app/main_menu.html'}
+            githubLink={'https://github.com/Spencer1923/Identity-Processing'}>
+            Emotion detection web-app using JavaScript and face-api.js (TensorFlow.js).
           </ImgOverlay>
-
-          <ImgOverlay
-            imgSrc={training}
-            title={"Training App"}
-            projectLink={'https://training-plan-app.netlify.app'}
-            githubLink={'https://github.com/Spencer1923/training-app'}>
-            Responsive workout generator with React.js & Tailwind CSS.
-          </ImgOverlay>
+          
 
         </div>
       </div>
