@@ -19,6 +19,14 @@ export default function Projects() {
         <div className='projects-section-content'>
 
           <ImgOverlay
+            imgSrc={falseProphecy}
+            title={"False Prophecy"}
+            projectLink={'https://false-prophecy.netlify.app/main_menu.html'}
+            githubLink={'https://github.com/Spencer1923/Identity-Processing'}>
+            Emotion detection web-app using JavaScript and face-api.js (TensorFlow.js).
+          </ImgOverlay>
+
+          <ImgOverlay
             imgSrc={weather}
             title={"Weather Web App"}
             projectLink={'https://datt3074weatherwebapp.netlify.app'}
@@ -27,19 +35,19 @@ export default function Projects() {
           </ImgOverlay>
 
           <ImgOverlay
-            imgSrc={portfolio}
-            title={"Portfolio"}
-            projectLink={'https://spencer-samra.netlify.app'}
-            githubLink={'https://github.com/Spencer1923/portfolio-one-react.git'}>
-            Mobile-first portfolio using React.js.
-          </ImgOverlay>
-
-          <ImgOverlay
             imgSrc={guess}
             title={"Guess it"}
             projectLink={'https://drive.google.com/drive/folders/10BygrOvwYWA8K3GatF69hsKFHPEEpjjK?usp=share_link'}
             githubLink={'https://github.com/Spencer1923/Guess-It'}>
             Number Guessing Game using Java for Android.
+          </ImgOverlay>
+
+          <ImgOverlay
+            imgSrc={portfolio}
+            title={"Portfolio"}
+            projectLink={'https://spencer-samra.netlify.app'}
+            githubLink={'https://github.com/Spencer1923/portfolio-one-react.git'}>
+            Mobile-first portfolio using React.js.
           </ImgOverlay>
 
           <ImgOverlay
@@ -56,14 +64,6 @@ export default function Projects() {
             projectLink={'https://transcribe-web-app.netlify.app'}
             githubLink={'https://github.com/Spencer1923/transcribe-app'}>
             Speech-to-text transcription & translation, uses React JS & Tailwind CSS.
-          </ImgOverlay>
-
-<ImgOverlay
-            imgSrc={falseProphecy}
-            title={"False Prophecy"}
-            projectLink={'https://false-prophecy.netlify.app/main_menu.html'}
-            githubLink={'https://github.com/Spencer1923/Identity-Processing'}>
-            Emotion detection web-app using JavaScript and face-api.js (TensorFlow.js).
           </ImgOverlay>
           
 
