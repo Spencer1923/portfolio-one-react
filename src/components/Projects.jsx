@@ -1,7 +1,7 @@
 import React from 'react'
 import SectionIntroduction from './SectionIntroduction'
 import missionList from '../assets/mission-list-screenshot.jpg'
-import transcribe from '../assets/transcribe.jpg'
+//import transcribe from '../assets/transcribe.jpg'
 import portfolio from '../assets/portfolio.jpg'
 import guess from '../assets/guess-it.jpg'
 import weather from '../assets/weather-app.jpg'
@@ -67,15 +67,14 @@ export default function Projects() {
             githubLink={'https://github.com/Spencer1923/reactJS-mission-list'}>
             Full stack responsive CRUD Mission List web application, built using React JS.
           </ImgOverlay>
-
-          <ImgOverlay
+          
+{/*       <ImgOverlay
             imgSrc={transcribe}
             title={"Transcribe App"}
             projectLink={'https://transcribe-web-app.netlify.app'}
             githubLink={'https://github.com/Spencer1923/transcribe-app'}>
             Speech-to-text transcription & translation, uses React JS & Tailwind CSS.
-          </ImgOverlay>
-          
+          </ImgOverlay>*/}
 
         </div>
       </div>
