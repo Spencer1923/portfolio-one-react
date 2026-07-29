@@ -19,7 +19,7 @@ export default function Header() {
                 
                 {/* projects me laptop icon*/}
                 <a href='#projects' className='header-anchor'>
-                    <i className="fa-solid fa-laptop header-icons"></i>
+                    <i className="fa-solid fa-headphones-simple header-icons"></i>                
                     
                     {/*<i className="fa-solid fa-laptop-code header-icons"></i> */}
                 </a>
