@@ -6,6 +6,8 @@ import portfolio from '../assets/portfolio.jpg'
 import guess from '../assets/guess-it.jpg'
 import weather from '../assets/weather-app.jpg'
 import falseProphecy from '../assets/false-prophecy.jpg'
+import dreamzDirect from '../assets/dreamz-direct.jpg'
+
 
 
 
@@ -48,6 +50,14 @@ export default function Projects() {
             projectLink={'https://spencer-samra.netlify.app'}
             githubLink={'https://github.com/Spencer1923/portfolio-one-react.git'}>
             Mobile-first portfolio using React.js.
+          </ImgOverlay>
+
+          <ImgOverlay
+            imgSrc={dreamzDirect}
+            title={"Web Page for Client"}
+            projectLink={'https://dreamzdirectsolutions.com'}
+            githubLink={'https://github.com/Spencer1923'}>
+            Mobile first business page for client prioritizing SEO and CTAs.
           </ImgOverlay>
 
           <ImgOverlay
