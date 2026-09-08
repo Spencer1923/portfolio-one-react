@@ -19,6 +19,11 @@ export default function Footer() {
         <i className="fa-brands fa-github"></i>
       </a>
 
+      {/* resume */}
+      <a href="/resume.pdf" download className="footer-icons">
+        <i className="fa-solid fa-file-arrow-down header-icons"></i>
+      </a>
+
     </div>
   )
 }   
