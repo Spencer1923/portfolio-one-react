@@ -3,7 +3,7 @@ import React from 'react'
 export default function Header() {
   return (
     <header className='header'>
-            <h1 className='header-text'>My Portfolio</h1>
+            <h1 className='header-text'>Frontend Developer</h1>
             <h1 className='header-name-text'>By Spencer Samra</h1>
             <div className='header-nav-items'>
 

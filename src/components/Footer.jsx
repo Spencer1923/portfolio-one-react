@@ -5,7 +5,7 @@ export default function Footer() {
     <div className='footer-wrapper'>
 
          {/* email */}
-       <a href="mailto:spencer24ss9@gmail.com.com" rel="noreferrer" target="_blank" className="footer-icons">
+       <a href="mailto:spencersamra@gmail.com" rel="noreferrer" target="_blank" className="footer-icons">
        <i className="fa-solid fa-envelope"></i>
       </a>
 
