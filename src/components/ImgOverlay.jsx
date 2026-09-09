@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function ImgOverlay(props) {
-    const { imgSrc, title, githubLink, projectLink, children } = props
+    const { imgSrc, title, tags, githubLink, projectLink, children } = props
     return (
         <div className='img-overlay-img-display'>
             <img className='img-overlay-img' src={imgSrc} alt="store" />
@@ -10,6 +10,11 @@ export default function ImgOverlay(props) {
                 <p className='img-overlay-paragraph'>
                     {children}
                 </p>
+                  <div className='img-overlay-tags'>
+                    {tags?.map((tag) => (
+                        <span key={tag} className='img-overlay-tag'>{tag}</span>
+                    ))}
+                </div>
                 <div className='img-overlay-links'>
                     <a href={githubLink} rel="noreferrer" target="_blank" className='img-overlay-button'><i className='fa-brands fa-github img-overlay-icons'></i></a>
                     <a href={projectLink} rel="noreferrer" target="_blank" className='img-overlay-button'>Link to project &#8594;</a>

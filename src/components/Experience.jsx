@@ -1,10 +1,12 @@
 import React from 'react'
 import ListEntry from './ListEntry'
 import SectionIntroduction from './SectionIntroduction'
+import useInView from '../useInView'
 
 export default function Experience() {
+  const [ref, isVisible] = useInView()
   return (
-    <section id="experience">
+     <section id="experience" ref={ref} className={isVisible ? 'fade-in' : 'fade-out'}>
       <div className='experience-wrapper'>
         <SectionIntroduction dark={true}>EXPERIENCE</SectionIntroduction>
         <div className='experience-section-content'>

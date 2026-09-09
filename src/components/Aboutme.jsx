@@ -1,9 +1,11 @@
 import React from 'react'
 import SectionIntroduction from './SectionIntroduction'
+import useInView from '../useInView'
 
 export default function Aboutme() {
+    const [ref, isVisible] = useInView()
     return (
-        <section id="about-me" className='about-me'>
+       <section id="about-me" ref={ref} className={`about-me ${isVisible ? 'fade-in' : 'fade-out'}`}>
             <div className='about-me-wrapper'>
                 <SectionIntroduction>ABOUT ME</SectionIntroduction>
                 <div className='about-me-section-content'>
