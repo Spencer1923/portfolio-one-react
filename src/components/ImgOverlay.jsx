@@ -4,7 +4,7 @@ export default function ImgOverlay(props) {
     const { imgSrc, title, tags, githubLink, projectLink, children } = props
     return (
         <div className='img-overlay-img-display'>
-            <img className='img-overlay-img' src={imgSrc} alt="store" />
+            <img className='img-overlay-img' src={imgSrc} alt={title} />
             <div className='img-overlay-overlay'>
                 <h2 className='img-overlay-overlay-header'>{title.toUpperCase()}</h2>
                 <p className='img-overlay-paragraph'>
