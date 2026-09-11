@@ -9,9 +9,9 @@ export default function Aboutme() {
             <div className='about-me-wrapper'>
                 <SectionIntroduction>ABOUT ME</SectionIntroduction>
                 <div className='about-me-section-content'>
-                    <p className='about-me-paragraph'>I’m passionate about continuously challenging myself and learning new technologies to create innovative, user-centric web applications.</p>
-                    <p className='about-me-paragraph'>I'm majoring in <strong>Digital Media</strong> at <strong>York University </strong> and have a background of two years of Computer Science studies.</p>
-                    <p className='about-me-paragraph'> I specialize in Java, JavaScript, React, HTML, and CSS.</p>
+                    <p className='about-me-paragraph'>I'm a recent <strong>Digital Media</strong> graduate from <strong> Lassonde School of Enineering</strong> at <strong>York University </strong> and have a background of two years of Computer Science studies.</p>
+                    <p className='about-me-paragraph'>I’m looking for a role where I can contribute too while also gaining valuable experience and further expanding my skillset.</p>
+                    <p className='about-me-paragraph'>I specialize in Java, JavaScript, React, HTML, CSS and I continuously challenge myself by learning new technologies to create innovative web applications.</p>
                 </div>
                 <div className='about-me-icons'>
                    <i className="fa-brands fa-js"></i>
