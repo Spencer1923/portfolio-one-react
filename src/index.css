@@ -411,6 +411,7 @@ position: relative;
 
   .list-entry-title {
     font-size: 1.4rem;
+    text-align: left;
   }
   
   .list-entry-date {

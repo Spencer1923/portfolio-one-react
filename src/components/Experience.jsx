@@ -24,6 +24,14 @@ export default function Experience() {
            <ListEntry title={"York University"} date={"September 2021 - Present"}>
             <li>Completed two years of Computer Science and now majoring in Digital Media.</li>
           </ListEntry>
+
+           <ListEntry title={"FreeCodeCamp Responsive Web Design (V8)"} date={"Certification"}>
+            <li>Completed coursework covering HTML, CSS, Flexbox, CSS Grid, and accessibility.</li>
+          </ListEntry>
+
+          <ListEntry title={"FreeCodeCamp JavaScript Algorithms and Data Structures (V8)"} date={"Certification"}>
+            <li>Completed coursework covering ES6, algorithm design, and data structures.</li>
+          </ListEntry>
         </div>
 
       </div>
