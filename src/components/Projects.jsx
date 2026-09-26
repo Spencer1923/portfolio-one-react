@@ -1,13 +1,15 @@
 import React from 'react'
 import useInView from '../useInView'
 import SectionIntroduction from './SectionIntroduction'
-import missionList from '../assets/mission-list-screenshot.jpg'
-import transcribe from '../assets/transcribe.jpg'
+//import missionList from '../assets/mission-list-screenshot.jpg'
+//import transcribe from '../assets/transcribe.jpg'
 import portfolio from '../assets/portfolio.jpg'
 import guess from '../assets/guess-it.jpg'
 import weather from '../assets/weather-app.jpg'
 import falseProphecy from '../assets/false-prophecy.jpg'
 import dreamzDirect from '../assets/dreamz-direct.jpg'
+import ss_sports from '../assets/ss-sports.jpg'
+
 
 
 
@@ -21,6 +23,24 @@ export default function Projects() {
       <div className='projects-wrapper'>
         <SectionIntroduction >PROJECTS</SectionIntroduction>
         <div className='projects-section-content'>
+
+           <ImgOverlay
+            imgSrc={ss_sports}
+            title={"SS Sports"}
+            tags={["React", "Next.js", "Tailwind CSS", "ESPN API"]}
+            projectLink={'https://s-sports.netlify.app'}
+            githubLink={'https://github.com/Spencer1923/SSports'}>
+            Full-stack NFL site with live scores, standings, stats, injuries, depth charts, and custom blog, built with Next.js and ESPN API.
+          </ImgOverlay>
+
+          <ImgOverlay
+            imgSrc={dreamzDirect}
+            title={"Web Page for Client"}
+            tags={["HTML", "CSS", "JavaScript", "SEO"]}
+            projectLink={'https://dreamzdirectsolutions.com'}
+            githubLink={'https://github.com/Spencer1923'}>
+            Mobile first business page for client prioritizing SEO and CTAs.
+          </ImgOverlay>
 
           <ImgOverlay
             imgSrc={falseProphecy}
@@ -58,32 +78,23 @@ export default function Projects() {
             Mobile-first portfolio using React.js.
           </ImgOverlay>
 
-          <ImgOverlay
-            imgSrc={dreamzDirect}
-            title={"Web Page for Client"}
-            tags={["HTML", "CSS", "JavaScript", "SEO"]}
-            projectLink={'https://dreamzdirectsolutions.com'}
-            githubLink={'https://github.com/Spencer1923'}>
-            Mobile first business page for client prioritizing SEO and CTAs.
-          </ImgOverlay>
-
-          <ImgOverlay
+       {/*}   <ImgOverlay
             imgSrc={missionList}
             title={"Mission List"}
             tags={["React", "Full Stack", "CRUD"]}
             projectLink={'https://reactjs-mission-list.netlify.app'}
             githubLink={'https://github.com/Spencer1923/reactJS-mission-list'}>
             Full stack responsive CRUD Mission List web application, built using React JS.
-          </ImgOverlay>
+          </ImgOverlay>/*}
           
-{      <ImgOverlay
+{  /*    <ImgOverlay
             imgSrc={transcribe}
             title={"Transcribe App"}
             tags={["React", "Tailwind CSS"]}
             projectLink={'https://transcribe-web-app.netlify.app'}
             githubLink={'https://github.com/Spencer1923/transcribe-app'}>
             Speech-to-text transcription & translation, uses React JS & Tailwind CSS.
-          </ImgOverlay>}
+          </ImgOverlay>*/}
 
         </div>
       </div>
