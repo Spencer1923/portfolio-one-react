@@ -3,12 +3,13 @@ import useInView from '../useInView'
 import SectionIntroduction from './SectionIntroduction'
 //import missionList from '../assets/mission-list-screenshot.jpg'
 //import transcribe from '../assets/transcribe.jpg'
-import portfolio from '../assets/portfolio.jpg'
+//import portfolio from '../assets/portfolio.jpg'
 import guess from '../assets/guess-it.jpg'
 import weather from '../assets/weather-app.jpg'
 import falseProphecy from '../assets/false-prophecy.jpg'
 import dreamzDirect from '../assets/dreamz-direct.jpg'
 import ss_sports from '../assets/ss-sports.jpg'
+import matrix_market from '../assets/matrix-market.jpg'
 
 
 
@@ -25,6 +26,15 @@ export default function Projects() {
         <div className='projects-section-content'>
 
            <ImgOverlay
+            imgSrc={matrix_market}
+            title={"Matrix Market"}
+            tags={["Next.js", "Typescript", "Tailwind CSS", "Stripe", "Supabase"]}
+            projectLink={'https://the-matrix-market.netlify.app/'}
+            githubLink={'https://github.com/Spencer1923/matrix-market'}>
+            E-commerce site for tech products built with Next.js, Tailwind, Supabase, and Stripe, with a cart, secure checkout, and an admin dashboard for products and orders.
+          </ImgOverlay>
+
+          <ImgOverlay
             imgSrc={ss_sports}
             title={"SS Sports"}
             tags={["React", "Next.js", "Tailwind CSS", "ESPN API"]}
@@ -69,14 +79,14 @@ export default function Projects() {
             Number Guessing Game using Java for Android.
           </ImgOverlay>
 
-          <ImgOverlay
+        {  /*   <ImgOverlay
             imgSrc={portfolio}
             title={"Portfolio"}
             tags={["React"]}
             projectLink={'https://spencer-samra.netlify.app'}
             githubLink={'https://github.com/Spencer1923/portfolio-one-react.git'}>
             Mobile-first portfolio using React.js.
-          </ImgOverlay>
+          </ImgOverlay> /*}
 
        {/*}   <ImgOverlay
             imgSrc={missionList}
