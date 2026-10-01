@@ -31,7 +31,7 @@ export default function Projects() {
             tags={["Next.js", "Typescript", "Tailwind CSS", "Stripe", "Supabase"]}
             projectLink={'https://the-matrix-market.netlify.app/'}
             githubLink={'https://github.com/Spencer1923/matrix-market'}>
-            E-commerce tech site using Next.js, Tailwind, Supabase, Stripe, with a cart, secure checkout and admin dashboard.
+            E-commerce tech site using Next.js, Tailwind, Supabase, Stripe with secure checkout and admin dashboard.
           </ImgOverlay>
 
           <ImgOverlay
