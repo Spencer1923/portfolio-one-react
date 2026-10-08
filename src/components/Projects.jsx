@@ -4,10 +4,10 @@ import SectionIntroduction from "./SectionIntroduction";
 //import missionList from '../assets/mission-list-screenshot.jpg'
 //import transcribe from '../assets/transcribe.jpg'
 //import portfolio from '../assets/portfolio.jpg'
-//import dreamzDirect from "../assets/dreamz-direct.jpg";
+//import falseProphecy from "../assets/false-prophecy.jpg";
+import dreamzDirect from "../assets/dreamz-direct.jpg";
 import guess from "../assets/guess-it.jpg";
 import weather from "../assets/weather-app.jpg";
-import falseProphecy from "../assets/false-prophecy.jpg";
 import ss_sports from "../assets/ss-sports.jpg";
 import matrix_market from "../assets/matrix-market.jpg";
 import autobahn_garage from "../assets/autobahn-garage.jpg";
@@ -51,12 +51,12 @@ export default function Projects() {
           </ImgOverlay>
 
           <ImgOverlay
-            imgSrc={falseProphecy}
-            title={"False Prophecy"}
-            tags={["JavaScript", "face-api.js", "TensorFlow.js"]}
-            projectLink={"https://false-prophecy.netlify.app/main_menu.html"}
-            githubLink={"https://github.com/Spencer1923/Identity-Processing"}>
-            Emotion detection web-app using JavaScript and face-api.js (TensorFlow.js).
+            imgSrc={dreamzDirect}
+            title={"Web Page for Client"}
+            tags={["HTML", "CSS", "JavaScript", "SEO"]}
+            projectLink={"https://dreamzdirectsolutions.com"}
+            githubLink={"https://github.com/Spencer1923"}>
+            Mobile first business page for client prioritizing SEO and CTAs.
           </ImgOverlay>
 
           <ImgOverlay
@@ -65,7 +65,7 @@ export default function Projects() {
             tags={["JavaScript", "Open Weather API", "Max 9"]}
             projectLink={"https://datt3074weatherwebapp.netlify.app"}
             githubLink={"https://github.com/Spencer1923/Immersive-Meteorological-Web-App"}>
-            Immersive Weather Web App using JavaScript and Max 9.
+            Immersive Weather Web App using JavaScript Free Weather API and Max 9.
           </ImgOverlay>
 
           <ImgOverlay
@@ -74,17 +74,17 @@ export default function Projects() {
             tags={["Java", "Android"]}
             projectLink={"https://drive.google.com/drive/folders/10BygrOvwYWA8K3GatF69hsKFHPEEpjjK?usp=share_link"}
             githubLink={"https://github.com/Spencer1923/Guess-It"}>
-            Number Guessing Game using Java for Android.
+            Multiplayer Guessing Game built with Java and Android Studio with different difficulty modes and live leaderboards.
           </ImgOverlay>
 
 {/*  
           <ImgOverlay
-            imgSrc={dreamzDirect}
-            title={"Web Page for Client"}
-            tags={["HTML", "CSS", "JavaScript", "SEO"]}
-            projectLink={"https://dreamzdirectsolutions.com"}
-            githubLink={"https://github.com/Spencer1923"}>
-            Mobile first business page for client prioritizing SEO and CTAs.
+            imgSrc={falseProphecy}
+            title={"False Prophecy"}
+            tags={["JavaScript", "face-api.js", "TensorFlow.js"]}
+            projectLink={"https://false-prophecy.netlify.app/main_menu.html"}
+            githubLink={"https://github.com/Spencer1923/Identity-Processing"}>
+            Emotion detection web-app using JavaScript and face-api.js (TensorFlow.js).
           </ImgOverlay>
 
           <ImgOverlay imgSrc={portfolio} title={"Portfolio"} tags={["React"]} projectLink={"https://spencer-samra.netlify.app"} githubLink={"https://github.com/Spencer1923/portfolio-one-react.git"}>
